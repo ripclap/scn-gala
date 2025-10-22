@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="night">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seattle Community Network Fundraiser Auction</title>
+    <link href="https://cdn.jsdelivr.net/combine/npm/daisyui@5/base/rootscrollgutter.css,npm/daisyui@5/base/scrollbar.css,npm/daisyui@5/base/rootcolor.css,npm/daisyui@5/base/rootscrolllock.css,npm/daisyui@5/base/reset.css,npm/daisyui@5/base/svg.css,npm/daisyui@5/base/properties.css,npm/daisyui@5/components/badge.css,npm/daisyui@5/components/link.css,npm/daisyui@5/components/hero.css,npm/daisyui@5/components/card.css,npm/daisyui@5/components/button.css,npm/daisyui@5/utilities/typography.css,npm/daisyui@5/utilities/radius.css,npm/daisyui@5/utilities/glass.css,npm/daisyui@5/utilities/join.css,npm/daisyui@5/colors/properties-extended.css,npm/daisyui@5/colors/responsive.css,npm/daisyui@5/colors/states-extended.css,npm/daisyui@5/colors/states.css,npm/daisyui@5/colors/properties.css,npm/daisyui@5/colors/responsive-extended.css,npm/daisyui@5/theme/night.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="min-h-screen">
+    <nav class="fixed left-0 top-4 z-50 flex justify-start px-4 sm:px-0">
+        <a
+            href="#main-content"
+            class="rounded-full bg-secondary px-5 py-2 text-sm font-semibold text-secondary-content shadow-lg transition-transform duration-200 hover:translate-x-0 focus-visible:translate-x-0 focus-visible:outline focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-secondary-content/70 sm:transform sm:-translate-x-[60%]"
+        >
+            Skip to main content
+        </a>
+    </nav>
+
+    <header class="hero min-h-[28rem] bg-base-200 pt-24" role="banner" aria-labelledby="event-title">
+        <div class="hero-content flex-col items-center gap-10 text-center lg:flex-row-reverse lg:items-start lg:text-left">
+            <img class="max-w-lg rounded-2xl shadow-2xl" src="https://placehold.co/500x400" alt="Guests mingling at a community fundraiser" />
+            <div class="max-w-xl">
+                <h1 id="event-title" class="text-5xl font-bold text-primary">Seattle Community Network Fundraiser Auction</h1>
+                <p class="py-4 text-lg text-base-content/70">
+                    Supporting Our Community Through Connectivity
+                </p>
+                <dl class="join flex flex-wrap justify-center text-sm text-base-content/80 lg:justify-start" aria-label="Event details">
+                    <dt class="sr-only">Date</dt>
+                    <dd class="badge badge-outline badge-sm join-item rounded-s-lg">November 7, 2025</dd>
+                    <dt class="sr-only">Location</dt>
+                    <dd class="badge badge-outline badge-sm join-item rounded-e-lg">Ada's Technical Books</dd>
+                </dl>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-base-200 py-16" aria-labelledby="about-heading">
+        <div class="mx-auto max-w-6xl px-6 lg:px-8">
+            <div class="mx-auto max-w-3xl text-center">
+                <div class="badge badge-outline badge-primary mb-4" aria-hidden="true">About the Auction</div>
+                <h2 id="about-heading" class="text-4xl font-bold tracking-tight text-primary">Building Community Through Connectivity</h2>
+                <p class="mt-6 text-lg text-base-content/70">
+                    Join us for an evening of friendly competition, inspiring stories, and generous giving. Every bid expands access to reliable internet across the Seattle Community Network.
+                </p>
+            </div>
+            <div class="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3" role="list">
+                <article class="card bg-base-100 text-center shadow-lg sm:text-left" role="listitem" aria-labelledby="impact-title">
+                    <div class="card-body">
+                        <h3 id="impact-title" class="card-title text-primary">Community Impact</h3>
+                        <p class="text-base-content/70">Support infrastructure and programs that deliver equitable connectivity to underserved neighbors.</p>
+                        <div class="card-actions justify-center sm:justify-end">
+                            <span class="badge badge-outline" aria-hidden="true">Digital Equity</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="card bg-base-100 text-center shadow-lg sm:text-left" role="listitem" aria-labelledby="partners-title">
+                    <div class="card-body">
+                        <h3 id="partners-title" class="card-title text-primary">Local Partners</h3>
+                        <p class="text-base-content/70">Bid on experiences and goods donated by businesses committed to uplifting the community.</p>
+                        <div class="card-actions justify-center sm:justify-end">
+                            <span class="badge badge-outline" aria-hidden="true">Collaboration</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="card bg-base-100 text-center shadow-lg sm:text-left" role="listitem" aria-labelledby="highlights-title">
+                    <div class="card-body">
+                        <h3 id="highlights-title" class="card-title text-primary">Evening Highlights</h3>
+                        <p class="text-base-content/70">Enjoy curated refreshments, live stories, and networking with advocates for accessible technology.</p>
+                        <div class="card-actions justify-center sm:justify-end">
+                            <span class="badge badge-outline" aria-hidden="true">Celebration</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <main id="main-content" class="grid min-h-screen items-center justify-center bg-base-100 py-12" role="main" aria-labelledby="items-heading">
+        <div class="w-full max-w-7xl px-6 lg:px-8">
+            <h2 id="items-heading" class="mb-8 text-center text-3xl font-bold text-primary sm:text-left">Auction Items</h2>
+            <ul class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3" role="list">
+                <li>
+                    <article class="card w-full bg-base-200 text-center shadow-xl sm:text-left" aria-labelledby="item-1-title">
+                        <figure class="flex justify-center sm:justify-start">
+                            <img src="https://placehold.co/400x300" alt="Placeholder preview of an auction item" />
+                        </figure>
+                        <div class="card-body">
+                            <h3 id="item-1-title" class="card-title justify-center sm:justify-start">Item Name</h3>
+                            <p class="text-gray-600 dark:text-gray-300">Brief description of the auction item.</p>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="card w-full bg-base-200 text-center shadow-xl sm:text-left" aria-labelledby="item-2-title">
+                        <figure class="flex justify-center sm:justify-start">
+                            <img src="https://placehold.co/400x300" alt="Placeholder preview of an auction item" />
+                        </figure>
+                        <div class="card-body">
+                            <h3 id="item-2-title" class="card-title justify-center sm:justify-start">Item Name</h3>
+                            <p class="text-gray-600 dark:text-gray-300">Brief description of the auction item.</p>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="card w-full bg-base-200 text-center shadow-xl sm:text-left" aria-labelledby="item-3-title">
+                        <figure class="flex justify-center sm:justify-start">
+                            <img src="https://placehold.co/400x300" alt="Placeholder preview of an auction item" />
+                        </figure>
+                        <div class="card-body">
+                            <h3 id="item-3-title" class="card-title justify-center sm:justify-start">Item Name</h3>
+                            <p class="text-gray-600 dark:text-gray-300">Brief description of the auction item.</p>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="card w-full bg-base-200 text-center shadow-xl sm:text-left" aria-labelledby="item-4-title">
+                        <figure class="flex justify-center sm:justify-start">
+                            <img src="https://placehold.co/400x300" alt="Placeholder preview of an auction item" />
+                        </figure>
+                        <div class="card-body">
+                            <h3 id="item-4-title" class="card-title justify-center sm:justify-start">Item Name</h3>
+                            <p class="text-gray-600 dark:text-gray-300">Brief description of the auction item.</p>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="card w-full bg-base-200 text-center shadow-xl sm:text-left" aria-labelledby="item-5-title">
+                        <figure class="flex justify-center sm:justify-start">
+                            <img src="https://placehold.co/400x300" alt="Placeholder preview of an auction item" />
+                        </figure>
+                        <div class="card-body">
+                            <h3 id="item-5-title" class="card-title justify-center sm:justify-start">Item Name</h3>
+                            <p class="text-gray-600 dark:text-gray-300">Brief description of the auction item.</p>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="card w-full bg-base-200 text-center shadow-xl sm:text-left" aria-labelledby="item-6-title">
+                        <figure class="flex justify-center sm:justify-start">
+                            <img src="https://placehold.co/400x300" alt="Placeholder preview of an auction item" />
+                        </figure>
+                        <div class="card-body">
+                            <h3 id="item-6-title" class="card-title justify-center sm:justify-start">Item Name</h3>
+                            <p class="text-gray-600 dark:text-gray-300">Brief description of the auction item.</p>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="card w-full bg-base-200 text-center shadow-xl sm:text-left" aria-labelledby="item-7-title">
+                        <figure class="flex justify-center sm:justify-start">
+                            <img src="https://placehold.co/400x300" alt="Placeholder preview of an auction item" />
+                        </figure>
+                        <div class="card-body">
+                            <h3 id="item-7-title" class="card-title justify-center sm:justify-start">Item Name</h3>
+                            <p class="text-gray-600 dark:text-gray-300">Brief description of the auction item.</p>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="card w-full bg-base-200 text-center shadow-xl sm:text-left" aria-labelledby="item-8-title">
+                        <figure class="flex justify-center sm:justify-start">
+                            <img src="https://placehold.co/400x300" alt="Placeholder preview of an auction item" />
+                        </figure>
+                        <div class="card-body">
+                            <h3 id="item-8-title" class="card-title justify-center sm:justify-start">Item Name</h3>
+                            <p class="text-gray-600 dark:text-gray-300">Brief description of the auction item.</p>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="card w-full bg-base-200 text-center shadow-xl sm:text-left" aria-labelledby="item-9-title">
+                        <figure class="flex justify-center sm:justify-start">
+                            <img src="https://placehold.co/400x300" alt="Placeholder preview of an auction item" />
+                        </figure>
+                        <div class="card-body">
+                            <h3 id="item-9-title" class="card-title justify-center sm:justify-start">Item Name</h3>
+                            <p class="text-gray-600 dark:text-gray-300">Brief description of the auction item.</p>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</body>
+</html>
